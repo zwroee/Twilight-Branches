@@ -1,62 +1,68 @@
 /**
- * @name Twilight Branches
- * @author ungiglio
- * @version 1.1.0
- * @source https://github.com/zwroee/Twilight-Branches
- * @description Twilight Branches
+ * @name twiilight branches.
+ * @version 1.0
+ * @description A translucent/twilight tree Discord theme.
+ * @author zwroe
+ * @website https://github.com/zwroee/Twilight-Branches/tree/main
+ * @source https://github.com/zwroee/Twilight-Branches/blob/main/TwilightBranches.theme.css
 */
 
-@import url("https://ungiglio.github.io/DiscordDiscordia/AWKGLASS/v2.awkglass.css");
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_mentions/mentions.css"); /* credits to davart154 for the original code */
-@import url("https://ungiglio.github.io/DiscordDiscordia/awkglass_code/colored_userlist/userlist.css");
+@import url('https://raw.githubusercontent.com/zwroee/Twilight-Branches/refs/heads/main/source.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
-/* CUSTOMIZATION CONTROL CENTER */
 :root {
-  --rgb-highlight: 178, 102, 255;                          /* 4, 217, 255; /* The main highlight color */
-  --rgb-close-button: 224, 58, 62;                         /* The main "close this" or "deny" color */
-  --rgb-online-color: 31, 92, 171;                         /* (31, 147, 80: default green) /* The color used in the "online" user status symbol */
-  --rgb-afk-color: 220, 163, 46;                           /* The color used in the "idle" user status symbol */
-  --rgb-dnd-color: 224, 58, 62;                            /* The color used in the "do not disturb" user status symbol */
-  --rgb-streaming-color: 188, 19, 254;                     /* The color used in the "streaming X" user status symbol */
-  --status-danger-rgb: rgb(0, 0, 0);                /* The color used for every danger action/button */
-
-  --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
-
-  --show-original-title: 0;                                /* Whether you want to show discords original title (0 means no, 1 means yes) */
-  --show-custom-title: 1;                                  /* Whether you want to show a custom title (0 means no, 1 means yes) */
-  --custom-title-text: "Twilight Branches";            /* The custom text you want to display */
-  --custom-title-font-size: 18px;                          /* The size in pixels of the custom title text */
-  --custom-title-font-weight: normal;                      /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
-  --custom-title-margin-top: 0px;                          /* The distance from the top of the window to the custom title text */
-  --custom-title-margin-left: 10px;                        /* The distance from the left side of the window to the custom title text */
-
-  --custom-channel-header-color: rgb(255, 255, 255);
-  --custom-channel-icon: rgb(255, 255, 255);              /* channel list unselected color */
-  --channel-icon: rgb(255, 255, 255) !important;    /* channel list unselected color */
-  --custom-selected-channel-color: rgb(0, 0, 0);     /* channel list selected color */
-  --cat-custom-color-rgba: 120, 138, 167;
-  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
-
-  --darkPurple-background: rgb(37, 36, 36);              /* Textarea background color */
-
-  --HSL-server-icon-size: 45px;                           /* Size of the server icons | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;                             /* Spacing between each server icon | DEFAULT: 10px */
-  --HSL-server-direction: column;                         /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
-
-  --custom-image-url: url('https://i.imgur.com/5r6W35M.png');  /* background image */
-  --app-blur: 2px;                                              /* background image blur */
-
-  --custom-logo: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordia.png'); /* custom logo */
-  --custom-logo-hover: url('https://ungiglio.github.io/DiscordDiscordia/awkglass_code/assets/LandeDiscordiaHover.png'); /* custom logo (hover) */
-
-  /* FONTS */
-    --font-primary: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-headline: 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-code: 'gg mono', 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
-    --font-clan-body: Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-clan-signature: Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-display-marketing: 'ABC Ginto Nord', 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-    --current-ver: "1.1.0"
+  --app-bg: url('https://i.imgur.com/sx5L6oT.png');
+  --app-blur: 3px;
+  --app-margin: 24px;
+  --app-radius: 8px;
+  --accent-hue: 0;
+  --accent-saturation: 0%;
+  --accent-lightness: 25%;
+  --accent-opacity: 1;
+  --sidebar-color: rgba(0,0,0,0.4);
+  --main-content-color: rgba(0,0,0,0.2);
+  --undefined: 0;
+  --interactive-normal: #FFFFFF;
+  --interactive-hover: #ddd;
+  --interactive-active: #fff;
+  --interactive-muted: #777;
+  --undefined: 0;
+  --background-modifier-hover: rgba(255,255,255,0.075);
+  --background-modifier-selected: rgba(255,255,255,0.125);
+  --message-color: rgb(14,14,14,0.4);
+  --message-radius: 10px;
+  --message-padding-top: 8px;
+  --message-padding-side: 8px;
+  --undefined: 0;
+  --reply-hue: 0;
+  --reply-saturation: 0%;
+  --reply-lightness: 0%;
+  --reply-opacity: 0;
+  --textarea-color: 255,255,255;
+  --textarea-alpha: 0.15;
+  --textarea-alpha-focus: 0.15;
+  --textarea-radius: 22px;
+  --card-color: rgb(45,45,45,0.4);
+  --card-color-hover: rgb(0,0,0,0.5);
+  --card-color-select: rgb(0,0,0,0.7);
+  --button-height: 32px;
+  --button-padding: 0 16px;
+  --button-radius: 16px;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
+
+/* Any custom CSS below here */
+
+
