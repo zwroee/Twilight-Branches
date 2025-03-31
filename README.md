@@ -1,4 +1,8 @@
-# Twilight Branches
+# Translucence Twilight Branches Theme -
+#### A translucent/Twilight Branches Discord theme
+<hr>
+
+Current version: v1.0 (3/31/2025)
 
 Vencord link
 ```
